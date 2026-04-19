@@ -1,0 +1,5 @@
+Total interpolation time (parallel) = 0.252274 seconds
+Total interpolation time (parallel) = 0.284796 seconds
+Total interpolation time (parallel) = 0.188925 seconds
+Total interpolation time (parallel) = 0.072517 seconds
+Total interpolation time (parallel) = 0.063256 seconds
