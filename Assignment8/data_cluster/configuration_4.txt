@@ -1,0 +1,169 @@
+
+
+Grid : 500 * 200 & Points : 20000000
+
+>>> Compiling main.cpp, utils.cpp, init.cpp...
+
+Total Cores  |  MPI (P)   |   OMP (T)    |  Time (s) 
+------------------------------------------------------
+
+[DEBUG] P=1, T=1 output was:
+[1777482972.449172] [gics1:23988:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3353.70
+Total Interpolation Time = 6.154063 seconds
+Total Normalization Time = 0.003184 seconds
+Total Mover Time = 7.685762 seconds
+Total Denormalization Time = 0.000714 seconds
+Total Algorithm Time = 13.843724 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=1, T=2 output was:
+[1777482990.539476] [gics1:24148:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3355.32
+Total Interpolation Time = 4.681722 seconds
+Total Normalization Time = 0.003150 seconds
+Total Mover Time = 4.370468 seconds
+Total Denormalization Time = 0.000695 seconds
+Total Algorithm Time = 9.056036 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=2, T=1 output was:
+[1777484149.245879] [gics2:2747 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3365.78
+[1777483003.053006] [gics1:24202:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3315.41
+Total Interpolation Time = 1.776785 seconds
+Total Normalization Time = 0.003238 seconds
+Total Mover Time = 1.923029 seconds
+Total Denormalization Time = 0.000696 seconds
+Total Algorithm Time = 3.703749 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=1, T=4 output was:
+[1777483009.679830] [gics1:24240:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3292.86
+Total Interpolation Time = 3.317256 seconds
+Total Normalization Time = 0.003146 seconds
+Total Mover Time = 3.844879 seconds
+Total Denormalization Time = 0.000697 seconds
+Total Algorithm Time = 7.165978 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=2, T=2 output was:
+[1777484165.193467] [gics2:2792 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3379.70
+[1777483018.995830] [gics1:24284:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3359.18
+Total Interpolation Time = 1.773231 seconds
+Total Normalization Time = 0.003239 seconds
+Total Mover Time = 1.920953 seconds
+Total Denormalization Time = 0.000688 seconds
+Total Algorithm Time = 3.698111 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=4, T=1 output was:
+[1777481097.472360] [gics4:15928:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3397.26
+[1777484172.520617] [gics2:2845 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3394.22
+[1777483026.329832] [gics1:24323:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3357.86
+[1777483272.648793] [gics3:25652:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 1769.52
+Total Interpolation Time = 0.893755 seconds
+Total Normalization Time = 0.003241 seconds
+Total Mover Time = 0.961161 seconds
+Total Denormalization Time = 0.000689 seconds
+Total Algorithm Time = 1.858845 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=1, T=8 output was:
+[1777483031.502267] [gics1:24361:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3370.55
+Total Interpolation Time = 3.315634 seconds
+Total Normalization Time = 0.003151 seconds
+Total Mover Time = 3.843257 seconds
+Total Denormalization Time = 0.000704 seconds
+Total Algorithm Time = 7.162746 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=2, T=4 output was:
+[1777484187.034707] [gics2:2892 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3365.27
+[1777483040.840897] [gics1:24397:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3342.12
+Total Interpolation Time = 1.773910 seconds
+Total Normalization Time = 0.003232 seconds
+Total Mover Time = 1.920671 seconds
+Total Denormalization Time = 0.000697 seconds
+Total Algorithm Time = 3.698510 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=4, T=2 output was:
+[1777481119.479162] [gics4:15948:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3394.12
+[1777484194.529630] [gics2:2936 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3393.61
+[1777483048.333784] [gics1:24435:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3224.91
+[1777483294.655016] [gics3:25709:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 1790.14
+Total Interpolation Time = 0.969063 seconds
+Total Normalization Time = 0.003238 seconds
+Total Mover Time = 0.962191 seconds
+Total Denormalization Time = 0.000694 seconds
+Total Algorithm Time = 1.935185 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=1, T=16 output was:
+[1777483052.701826] [gics1:24473:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3400.01
+Total Interpolation Time = 3.316011 seconds
+Total Normalization Time = 0.003150 seconds
+Total Mover Time = 3.844001 seconds
+Total Denormalization Time = 0.000700 seconds
+Total Algorithm Time = 7.163862 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=2, T=8 output was:
+[1777484208.089663] [gics2:2991 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3394.73
+[1777483061.897047] [gics1:24509:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3264.12
+Total Interpolation Time = 1.916782 seconds
+Total Normalization Time = 0.003232 seconds
+Total Mover Time = 1.923943 seconds
+Total Denormalization Time = 0.000694 seconds
+Total Algorithm Time = 3.844650 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=4, T=4 output was:
+[1777481140.408044] [gics4:15978:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3400.21
+[1777484215.458083] [gics2:3035 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3377.36
+[1777483069.266586] [gics1:24547:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3400.11
+[1777483315.583987] [gics3:25760:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 1895.05
+Total Interpolation Time = 0.894490 seconds
+Total Normalization Time = 0.003397 seconds
+Total Mover Time = 0.961772 seconds
+Total Denormalization Time = 0.000686 seconds
+Total Algorithm Time = 1.860345 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=2, T=16 output was:
+[1777483074.333821] [gics1:24596:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3273.05
+[1777484220.538490] [gics2:3080 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3344.76
+Total Interpolation Time = 1.712253 seconds
+Total Normalization Time = 0.003237 seconds
+Total Mover Time = 1.922070 seconds
+Total Denormalization Time = 0.000692 seconds
+Total Algorithm Time = 3.638252 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=4, T=8 output was:
+[1777481152.630629] [gics4:15999:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3400.31
+[1777484227.681321] [gics2:3125 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3389.65
+[1777483081.486462] [gics1:24634:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3108.32
+[1777483327.805531] [gics3:25810:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 1999.97
+Total Interpolation Time = 0.896149 seconds
+Total Normalization Time = 0.003267 seconds
+Total Mover Time = 0.961093 seconds
+Total Denormalization Time = 0.000686 seconds
+Total Algorithm Time = 1.861195 seconds
+Total Number of Voids = 10
+
+[DEBUG] P=4, T=16 output was:
+[1777481157.988478] [gics4:16021:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3400.01
+[1777484233.039305] [gics2:3170 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3385.48
+[1777483086.842689] [gics1:24672:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 3335.51
+[1777483333.165934] [gics3:25858:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2397.59
+Total Interpolation Time = 0.994783 seconds
+Total Normalization Time = 0.003303 seconds
+Total Mover Time = 0.961139 seconds
+Total Denormalization Time = 0.000685 seconds
+Total Algorithm Time = 1.959910 seconds
+Total Number of Voids = 10
+
+
+
+
+
+
